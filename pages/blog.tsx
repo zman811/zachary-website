@@ -3,7 +3,8 @@ import Head from "next/head";
 import BlogPost from "../components/BlogPost";
 import { Center, Space, Title } from "@mantine/core";
 
-export default function Blog() {
+export default function Blog({test}:{test: string}) {
+  console.log(test)
   return (
     <>
       <Head>
@@ -25,4 +26,12 @@ export default function Blog() {
       </main>
     </>
   );
+}
+
+export async function getServerSideProps() {
+  const mongoose = require("mongoose");
+  mongoose.connect(process.env.MONGODB);
+  // need to make a schema and query the db when page loads to get the info for blog
+
+  return { props: { test: "test" } };
 }
