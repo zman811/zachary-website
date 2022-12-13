@@ -1,6 +1,7 @@
 import NavBar from "../components/NavBar";
 import Head from "next/head";
-import { Center, Title } from "@mantine/core";
+import BlogPost from "../components/BlogPost";
+import { Center, Space, Title } from "@mantine/core";
 
 export default function Blog() {
   return (
@@ -14,6 +15,13 @@ export default function Blog() {
         <Center>
           <Title order={2}>Blog</Title>
         </Center>
+        <Space h="lg" />
+        {[...Array(4)].map((_, i) => (
+          <Center key={i} style={{ margin: "1em" }}>
+            <BlogPost />
+          </Center>
+        ))}
+        {/* <BlogPost /> */}
       </main>
     </>
   );
