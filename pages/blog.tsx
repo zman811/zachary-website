@@ -29,15 +29,9 @@ export default function Blog({ test, data }: { test: string, data: Array<{post: 
 
 export async function getServerSideProps() {
   const blog = require("../utils/mongo");
- // const mongoose = require("mongoose");
   let data = await blog.find({});
   let newdata = JSON.parse(JSON.stringify(data)).reverse()
-  // await blog.create({post: "this is a test post"})
-  console.log(data);
-
-
-  //console.log(await blog.find({}))
-  // need to make a schema and query the db when page loads to get the info for blog
+  //console.log(data);
 
   return { props: { test: "test", data: newdata } };
 }
