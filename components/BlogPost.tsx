@@ -1,6 +1,6 @@
 import { Paper, Text, Title } from "@mantine/core";
 
-export default function BlogPost() {
+export default function BlogPost({ text, title }: { text: string, title: string }) {
   return (
     <Paper
       shadow="xl"
@@ -9,9 +9,9 @@ export default function BlogPost() {
       style={{ width: "40em", height: "10em", overflow: "scroll" }}
     >
       <Title style={{ textAlign: "center" }} order={3}>
-        Blog post Title
+        {title}
       </Title>
-      <Text>Blog post text</Text>
+      <Text>{text}</Text>
     </Paper>
   );
 }
