@@ -3,7 +3,7 @@ import Head from "next/head";
 import BlogPost from "../components/BlogPost";
 import { Center, Space, Title } from "@mantine/core";
 
-export default function Blog({ test, data }: { test: string, data: Array<{post: string, title: string}> }) {
+export default function Blog({ data }: { data: Array<{post: string, title: string}> }) {
   return (
     <>
       <Head>
@@ -21,7 +21,6 @@ export default function Blog({ test, data }: { test: string, data: Array<{post: 
             <BlogPost title={data[i].title} text={data[i].post}/>
           </Center>
         ))}
-        {/* <BlogPost /> */}
       </main>
     </>
   );
@@ -33,5 +32,5 @@ export async function getServerSideProps() {
   let newdata = JSON.parse(JSON.stringify(data)).reverse()
   //console.log(data);
 
-  return { props: { test: "test", data: newdata } };
+  return { props: { data: newdata } };
 }
