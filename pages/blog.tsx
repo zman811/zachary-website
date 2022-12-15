@@ -30,7 +30,6 @@ export async function getServerSideProps() {
   const blog = require("../utils/mongo");
   let data = await blog.find({});
   let newdata = JSON.parse(JSON.stringify(data)).reverse()
-  //console.log(data);
 
   return { props: { data: newdata } };
 }
