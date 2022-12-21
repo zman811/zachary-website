@@ -1,6 +1,12 @@
 import { Paper, Text, Title } from "@mantine/core";
 
-export default function BlogPost({ text, title }: { text: string, title: string }) {
+export default function BlogPost({
+  text,
+  title,
+}: {
+  text: string;
+  title: string;
+}) {
   return (
     <Paper
       shadow="xl"
