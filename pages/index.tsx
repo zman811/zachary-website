@@ -14,7 +14,10 @@ export default function Home() {
       <NavBar />
       <main>
         <Center>
-          <Title order={2}>Hello!</Title>
+          <Text size={20}>Hello there,</Text>
+        </Center>
+        <Center>
+          <Text size={50} style={{marginLeft: "3em"}}>I&#39;m Zachary</Text>
         </Center>
         <Space h="md" />
         <Center>
