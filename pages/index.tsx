@@ -3,6 +3,7 @@ import Head from "next/head";
 import image from "../public/IMG_5771e.jpeg";
 import Image from "next/image";
 import NavBar from "../components/NavBar";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -68,7 +69,33 @@ export default function Home() {
             <Accordion.Item value="About this page">
               <Accordion.Control>About this page</Accordion.Control>
               <Accordion.Panel>
-                Put text about the page/tech stack here
+                <Center>Put text about the page/tech stack here</Center>
+                <Space h="lg" />
+                <Center>
+                  <Button style={{ margin: "0.5em" }}>
+                    Why the tech stack?
+                  </Button>
+                  <Button style={{ margin: "0.5em" }}>
+                    What I have learned
+                  </Button>
+                </Center>
+              </Accordion.Panel>
+            </Accordion.Item>
+            <Accordion.Item value="Blog">
+              <Accordion.Control>A Blog? Why?</Accordion.Control>
+              <Accordion.Panel>
+                <Center>
+                  <Text>
+                    Going to add text in here talking about why I made a blog
+                    page
+                  </Text>
+                </Center>
+                <Space h="lg" />
+                <Center>
+                  <Link href="blog">
+                  <Button>Go to the Blog</Button>
+                  </Link>
+                </Center>
               </Accordion.Panel>
             </Accordion.Item>
           </Accordion>
