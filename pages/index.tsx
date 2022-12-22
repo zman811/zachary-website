@@ -22,6 +22,12 @@ export default function Home() {
         </Center>
         <Space h="md" />
         <Center>
+          <Text>
+            Write a brief into to myself here
+          </Text>
+        </Center>
+        <Space h="md" />
+        <Center>
           <Accordion
             variant="separated"
             defaultValue="customization"
