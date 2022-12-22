@@ -1,4 +1,4 @@
-import { Center, Text, Title, Space, Accordion } from "@mantine/core";
+import { Center, Text, Title, Space, Accordion, Button } from "@mantine/core";
 import Head from "next/head";
 import image from "../public/IMG_5771e.jpeg";
 import Image from "next/image";
@@ -17,7 +17,7 @@ export default function Home() {
           <Text size={20}>Hello there,</Text>
         </Center>
         <Center>
-          <Text size={50} style={{marginLeft: "3em"}}>I&#39;m Zachary</Text>
+          <Text size={50}>I&#39;m Zachary</Text>
         </Center>
         <Space h="md" />
         <Center>
@@ -52,14 +52,23 @@ export default function Home() {
                   </Text>
                 </Center>
                 <Center style={{ margin: "1em" }}>
-                  <Image
+                  {/* <Image
                     height={200}
                     width={300}
                     src={image}
                     style={{ border: "8px solid white" }}
                     alt="Picture of Zachary"
                   ></Image>
+                   //TODO move this to a seprate about me page
+                  */}
+                  <Button>Learn more</Button>
                 </Center>
+              </Accordion.Panel>
+            </Accordion.Item>
+            <Accordion.Item value="About this page">
+              <Accordion.Control>About this page</Accordion.Control>
+              <Accordion.Panel>
+                Put text about the page/tech stack here
               </Accordion.Panel>
             </Accordion.Item>
           </Accordion>
