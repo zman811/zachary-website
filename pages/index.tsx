@@ -15,16 +15,16 @@ export default function Home() {
       <NavBar />
       <main>
         <Center>
-          <Text size={20}>Hello there,</Text>
+          <Text style={{ textAlign: "left", width: "250px" }} size={20}>
+            Hello there,
+          </Text>
         </Center>
         <Center>
           <Text size={50}>I&#39;m Zachary</Text>
         </Center>
         <Space h="md" />
         <Center>
-          <Text>
-            Write a brief into to myself here
-          </Text>
+          <Text>{/* Write a brief into to myself here */}</Text>
         </Center>
         <Space h="md" />
         <Center>
@@ -99,12 +99,19 @@ export default function Home() {
                 <Space h="lg" />
                 <Center>
                   <Link href="blog">
-                  <Button>Go to the Blog</Button>
+                    <Button>Go to the Blog</Button>
                   </Link>
                 </Center>
               </Accordion.Panel>
             </Accordion.Item>
           </Accordion>
+          <Image
+            height={200}
+            width={300}
+            src={image}
+            style={{ border: "4px solid white" }}
+            alt="Picture of Zachary"
+          />
         </Center>
         <Space h="md" />
       </main>
