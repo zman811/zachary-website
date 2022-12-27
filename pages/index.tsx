@@ -24,7 +24,11 @@ export default function Home() {
         </Center>
         <Space h="md" />
         <Center>
-          <Text>{/* Write a brief into to myself here */}</Text>
+          <Text>
+            This Page is not fully complete yet, any disabled links or buttons
+            will be added once they are done!
+            {/* Write a brief into to myself here */}
+          </Text>
         </Center>
         <Space h="md" />
         <Center>
@@ -75,20 +79,33 @@ export default function Home() {
             <Accordion.Item value="About this page">
               <Accordion.Control>About this page</Accordion.Control>
               <Accordion.Panel>
-                <Center>Put text about the page/tech stack here</Center>
+                <Center>
+                  <Text>
+                    This page is made with nextjs, react, typescript, and
+                    MongoDB. If you want to learn more about why I chose the
+                    tech stack I did click the link below to see a full page on
+                    why I used it.
+                    <br />
+                    <br />
+                    Why did I make this page? I made this page to have somewhere
+                    to practice new tech or ways of making a page. It is also
+                    somewhere where I can post all of the things I learn to help
+                    other people.
+                  </Text>
+                </Center>
                 <Space h="lg" />
                 <Center>
-                  <Button style={{ margin: "0.5em" }}>
+                  <Button disabled style={{ margin: "0.5em" }}>
                     Why the tech stack?
                   </Button>
-                  <Button style={{ margin: "0.5em" }}>
+                  <Button disabled style={{ margin: "0.5em" }}>
                     What I have learned
                   </Button>
                 </Center>
               </Accordion.Panel>
             </Accordion.Item>
             <Accordion.Item value="Blog">
-              <Accordion.Control>A Blog? Why?</Accordion.Control>
+              <Accordion.Control disabled>A Blog? Why?</Accordion.Control>
               <Accordion.Panel>
                 <Center>
                   <Text>
