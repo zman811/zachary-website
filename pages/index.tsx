@@ -72,7 +72,7 @@ export default function Home() {
                   ></Image>
                    //TODO move this to a seprate about me page
                   */}
-                  <Button>Learn more</Button>
+                  <Button disabled >Learn more</Button>
                 </Center>
               </Accordion.Panel>
             </Accordion.Item>
