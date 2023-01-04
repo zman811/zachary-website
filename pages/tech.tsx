@@ -17,11 +17,16 @@ export default function Tech() {
             <Title order={2}>Next.JS</Title>
             <Space h="lg" />
             <Text>
-              The main frame work that this page uses is nextjs. This is beacuse
-              next allows for very easy usage of SSR and SSG. This can help with
-              page perforamce a lot. It also allows for serverless functions,
-              which make it easier when there is not a ton of sever side code.
+              The main framework that this page uses is nextjs. This is because
+              next allows for effortless usage of SSR and SSG. This can help
+              with page performance a lot. It also provides serverless
+              functions, which makes it easier when there is little server-side
+              code.
             </Text>
+            <Space h="lg" />
+            <Title order={2}>React.JS</Title>
+            <Space h="lg" />
+            <Text>React text here</Text>
           </div>
         </Center>
       </main>
