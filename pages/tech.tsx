@@ -27,6 +27,10 @@ export default function Tech() {
             <Title order={2}>React.JS</Title>
             <Space h="lg" />
             <Text>React text here</Text>
+            <Space h="lg" />
+            <Title order={2}>MongoDB</Title>
+            <Space h="lg" />
+            <Text>MongoDB text here</Text>
           </div>
         </Center>
       </main>
