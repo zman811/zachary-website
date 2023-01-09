@@ -98,7 +98,7 @@ export default function Home() {
                 <Space h="lg" />
                 <Center>
                   <Link href="/tech">
-                  <Button disabled style={{ margin: "0.5em" }}>
+                  <Button style={{ margin: "0.5em" }}>
                     Why the tech stack?
                   </Button>
                   </Link>
