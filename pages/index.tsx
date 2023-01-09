@@ -72,7 +72,9 @@ export default function Home() {
                   ></Image>
                    //TODO move this to a seprate about me page
                   */}
-                  <Button disabled >Learn more</Button>
+                  {/* <Link href="aboutMe">
+                  <Button>Learn more</Button>
+                  </Link> */}
                 </Center>
               </Accordion.Panel>
             </Accordion.Item>
@@ -100,9 +102,9 @@ export default function Home() {
                     Why the tech stack?
                   </Button>
                   </Link>
-                  <Button disabled style={{ margin: "0.5em" }}>
+                  {/* <Button disabled style={{ margin: "0.5em" }}>
                     What I have learned
-                  </Button>
+                  </Button> */}
                 </Center>
               </Accordion.Panel>
             </Accordion.Item>
