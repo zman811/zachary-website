@@ -10,7 +10,12 @@ export default function NavBar() {
             <Button style={{ margin: "0.5em" }}>Home</Button>
           </Link>
         </Grid.Col>
-        <Grid.Col offset={10} span={1}>
+        <Grid.Col offset={9} span={1}>
+          <Link href="/tech">
+            <Button style={{ margin: "0.5em" }}>Tech Stack</Button>
+          </Link>
+        </Grid.Col>
+        <Grid.Col span={1}>
           <Center>
             <Link href="/blog">
               <Button style={{ margin: "0.5em" }}>Blog</Button>
