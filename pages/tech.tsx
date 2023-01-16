@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 import Head from "next/head";
-import { Center, Title, Space, Text } from "@mantine/core";
+import { Center, Title, Space, Text, Accordion } from "@mantine/core";
 
 export default function Tech() {
   return (
@@ -15,7 +15,7 @@ export default function Tech() {
         <Center>
           <div style={{ textAlign: "center", width: "50em" }}>
             <Text size="xl">Still working on how to style this page</Text>
-            <Space h="xl"/>
+            <Space h="xl" />
             <Title order={1}>Vercel</Title>
             <Space h="lg" />
             <Text size="lg">
@@ -59,6 +59,14 @@ export default function Tech() {
               simple data, like a blog.
             </Text>
           </div>
+        </Center>
+        <Center>
+          <Accordion>
+            <Accordion.Item value="test">
+              <Accordion.Control>test</Accordion.Control>
+              <Accordion.Panel>test</Accordion.Panel>
+            </Accordion.Item>
+          </Accordion>
         </Center>
       </main>
     </>
