@@ -32,6 +32,15 @@ export default function Home() {
         </Center>
         <Space h="md" />
         <Center>
+          <div style={{textAlign: "center"}}>
+            <Title size={50} order={2}>My Projects</Title>
+            <div>will add in cards with links to Projects here</div>
+          </div>
+        </Center>
+        <Space h="md" />
+        <Space h="md" />
+
+        <Center>
           <Accordion
             variant="separated"
             defaultValue="customization"
@@ -98,9 +107,9 @@ export default function Home() {
                 <Space h="lg" />
                 <Center>
                   <Link href="/tech">
-                  <Button style={{ margin: "0.5em" }}>
-                    Why the tech stack?
-                  </Button>
+                    <Button style={{ margin: "0.5em" }}>
+                      Why the tech stack?
+                    </Button>
                   </Link>
                   {/* <Button disabled style={{ margin: "0.5em" }}>
                     What I have learned
