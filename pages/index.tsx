@@ -1,4 +1,13 @@
-import { Center, Text, Title, Space, Accordion, Button } from "@mantine/core";
+import {
+  Center,
+  Text,
+  Title,
+  Space,
+  Accordion,
+  Button,
+  Card,
+  Grid,
+} from "@mantine/core";
 import Head from "next/head";
 import image from "../public/IMG_5771e.jpeg";
 import Image from "next/image";
@@ -30,14 +39,7 @@ export default function Home() {
             {/* Write a brief into to myself here */}
           </Text>
         </Center>
-        <Space h="md" />
-        <Center>
-          <div style={{textAlign: "center"}}>
-            <Title size={50} order={2}>My Projects</Title>
-            <div>will add in cards with links to Projects here</div>
-          </div>
-        </Center>
-        <Space h="md" />
+
         <Space h="md" />
 
         <Center>
@@ -142,6 +144,34 @@ export default function Home() {
             style={{ border: "4px solid white" }}
             alt="Picture of Zachary"
           />
+        </Center>
+        <Space h="md" />
+        <Space h="md" />
+        <Center>
+          <div style={{ textAlign: "center", width: '800px' }}>
+            <Title size={50} order={2}>
+              My Projects
+            </Title>
+
+            <Grid columns={6}>
+              <Grid.Col span={3}>
+                <Card>
+                  <Card.Section>
+                    <Title order={2}>Helo</Title>
+                    <Text>test</Text>
+                  </Card.Section>
+                </Card>
+              </Grid.Col>
+              <Grid.Col span={3}>
+                <Card>
+                  <Card.Section>
+                    <Title order={2}>Helo</Title>
+                    <Text>test</Text>
+                  </Card.Section>
+                </Card>
+              </Grid.Col>
+            </Grid>
+          </div>
         </Center>
         <Space h="md" />
       </main>
