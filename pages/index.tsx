@@ -1,13 +1,4 @@
-import {
-  Center,
-  Text,
-  Title,
-  Space,
-  Accordion,
-  Button,
-  Card,
-  Grid,
-} from "@mantine/core";
+import { Center, Text, Title, Space, Accordion, Button, Card, Grid } from "@mantine/core";
 import Head from "next/head";
 import image from "../public/IMG_5771e.jpeg";
 import Image from "next/image";
@@ -83,9 +74,6 @@ export default function Home() {
                   ></Image>
                    //TODO move this to a seprate about me page
                   */}
-                  {/* <Link href="aboutMe">
-                  <Button>Learn more</Button>
-                  </Link> */}
                 </Center>
               </Accordion.Panel>
             </Accordion.Item>
@@ -113,9 +101,6 @@ export default function Home() {
                       Why the tech stack?
                     </Button>
                   </Link>
-                  {/* <Button disabled style={{ margin: "0.5em" }}>
-                    What I have learned
-                  </Button> */}
                 </Center>
               </Accordion.Panel>
             </Accordion.Item>
