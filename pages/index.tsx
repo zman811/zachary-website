@@ -1,4 +1,13 @@
-import { Center, Text, Title, Space, Accordion, Button, Card, Grid } from "@mantine/core";
+import {
+  Center,
+  Text,
+  Title,
+  Space,
+  Accordion,
+  Button,
+  Card,
+  Grid,
+} from "@mantine/core";
 import Head from "next/head";
 import image from "../public/IMG_5771e.jpeg";
 import Image from "next/image";
@@ -133,7 +142,7 @@ export default function Home() {
         <Space h="md" />
         <Space h="md" />
         <Center>
-          <div style={{ textAlign: "center", width: '800px' }}>
+          <div style={{ textAlign: "center", width: "800px" }}>
             <Title size={50} order={2}>
               My Projects
             </Title>
