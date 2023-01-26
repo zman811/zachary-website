@@ -10,6 +10,7 @@ import {
 } from "@mantine/core";
 import Head from "next/head";
 import image from "../public/IMG_5771e.jpeg";
+import github from "../public/github2.png";
 import Image from "next/image";
 import NavBar from "../components/NavBar";
 import Link from "next/link";
@@ -151,6 +152,11 @@ export default function Home() {
               <Grid.Col span={3}>
                 <Card>
                   <Card.Section>
+                    <Image
+                      src={github}
+                      alt="github Logo"
+                      style={{ margin: "1em" }}
+                    />
                     <Title order={2}>Helo</Title>
                     <Text>test</Text>
                   </Card.Section>
@@ -159,6 +165,24 @@ export default function Home() {
               <Grid.Col span={3}>
                 <Card>
                   <Card.Section>
+                    <Image
+                      src={github}
+                      alt="github Logo"
+                      style={{ margin: "1em" }}
+                    />
+                    <Title order={2}>Helo</Title>
+                    <Text>test</Text>
+                  </Card.Section>
+                </Card>
+              </Grid.Col>
+              <Grid.Col span={3}>
+                <Card>
+                  <Card.Section>
+                    <Image
+                      src={github}
+                      alt="github Logo"
+                      style={{ margin: "1em" }}
+                    />
                     <Title order={2}>Helo</Title>
                     <Text>test</Text>
                   </Card.Section>
@@ -167,6 +191,8 @@ export default function Home() {
             </Grid>
           </div>
         </Center>
+        <Space h="md" />
+        <Space h="md" />
         <Space h="md" />
       </main>
     </div>
