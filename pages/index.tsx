@@ -35,8 +35,8 @@ export default function Home() {
         <Space h="md" />
         <Center>
           <Text>
-            This Page is not fully complete yet, any disabled links or buttons
-            will be added once they are done!
+            {/* This Page is not fully complete yet, any disabled links or buttons
+            will be added once they are done! */}
             {/* Write a brief into to myself here */}
           </Text>
         </Center>
@@ -157,8 +157,32 @@ export default function Home() {
                       alt="github Logo"
                       style={{ margin: "1em" }}
                     />
-                    <Title order={2}>Helo</Title>
-                    <Text>test</Text>
+                    <Title order={3}>Serum</Title>
+                    <Text size="xl">An eCommerce storefront page</Text>
+                    <ul>
+                      <li>
+                        Architected the React front-end of a form for submitting
+                        reviews using a restful API
+                      </li>
+                      <li>
+                        Optimized load times by making more efficient requests,
+                        reducing request times from 400ms to under 60ms allowing
+                        for faster page loads
+                      </li>
+                      <li>
+                        Built a system using external services to take an
+                        uploaded image and convert it to a link in order to
+                        display a thumbnail
+                      </li>
+                    </ul>
+                    <Button
+                      component="a"
+                      href="https://github.com/FECTeamOne/Serum"
+                      target="_blank"
+                    >
+                      Serum Github
+                    </Button>
+                    <Space h="md" />
                   </Card.Section>
                 </Card>
               </Grid.Col>
@@ -170,8 +194,33 @@ export default function Home() {
                       alt="github Logo"
                       style={{ margin: "1em" }}
                     />
-                    <Title order={2}>Helo</Title>
-                    <Text>test</Text>
+                    <Title order={3}>Gopher</Title>
+                    <Text size="xl">
+                      A application for people to coordinate shopping lists
+                    </Text>
+                    <ul>
+                      <li>
+                        Created a calendar page using React and integrated it
+                        with the PostgreSQL database made by a team member
+                      </li>
+                      <li>
+                        Increased the development speed of the web page by
+                        constructing reusable react components ensuring
+                        consistency between elements on the page
+                      </li>
+                      <li>
+                        Collaborated with a team of 5 engineers to integrate
+                        multiple parts of the application together seamlessly
+                      </li>
+                    </ul>
+                    <Button
+                      component="a"
+                      href="https://github.com/blueocean-rico/gopher"
+                      target="_blank"
+                    >
+                      Gopher Github
+                    </Button>
+                    <Space h="md" />
                   </Card.Section>
                 </Card>
               </Grid.Col>
@@ -183,8 +232,35 @@ export default function Home() {
                       alt="github Logo"
                       style={{ margin: "1em" }}
                     />
-                    <Title order={2}>Helo</Title>
-                    <Text>test</Text>
+                    <Title order={3}>Serum Backend</Title>
+                    <Text size="xl">
+                      The restful API back end to the Serum Ecommerce site
+                    </Text>
+                    <ul>
+                      <li>
+                        Analyzed data types and selected PostgreSQL as the
+                        database, ensuring efficient data collection and
+                        utilized indexes in order to speed up queries
+                      </li>
+                      <li>
+                        Utilized loader.io to test the speeds and added a load
+                        balancer with multiple EC2 instances to optimize request
+                        amounts from 200 rps to 1000 rps
+                      </li>
+                      <li>
+                        Optimized the load balancer to use caching allowing for
+                        the fastest read speeds, increasing the speeds to over
+                        2000 rps
+                      </li>
+                    </ul>
+                    <Button
+                      component="a"
+                      href="https://github.com/Team-Greyjoy/sdc"
+                      target="_blank"
+                    >
+                      Serum Backend Github
+                    </Button>
+                    <Space h="md" />
                   </Card.Section>
                 </Card>
               </Grid.Col>
