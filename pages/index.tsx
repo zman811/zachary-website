@@ -114,7 +114,7 @@ export default function Home() {
                 </Center>
               </Accordion.Panel>
             </Accordion.Item>
-            <Accordion.Item value="Blog">
+            {/* <Accordion.Item value="Blog">
               <Accordion.Control disabled>A Blog? Why?</Accordion.Control>
               <Accordion.Panel>
                 <Center>
@@ -130,7 +130,7 @@ export default function Home() {
                   </Link>
                 </Center>
               </Accordion.Panel>
-            </Accordion.Item>
+            </Accordion.Item> */}
           </Accordion>
           <Image
             height={200}

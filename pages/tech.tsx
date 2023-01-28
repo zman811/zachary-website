@@ -14,7 +14,7 @@ export default function Tech() {
         <Space h="lg" />
         <Center>
           <div style={{ textAlign: "center", width: "50em" }}>
-            <Text size="xl">Still working on how to style this page</Text>
+            {/* <Text size="xl">Still working on how to style this page</Text> */}
             <Space h="xl" />
             <Title order={1}>Vercel</Title>
             <Space h="lg" />
@@ -60,14 +60,16 @@ export default function Tech() {
             </Text>
           </div>
         </Center>
-        <Center>
+        {/* <Center>
           <Accordion>
             <Accordion.Item value="test">
               <Accordion.Control>test</Accordion.Control>
               <Accordion.Panel>test</Accordion.Panel>
             </Accordion.Item>
           </Accordion>
-        </Center>
+        </Center> */}
+        <Space h='lg'/>
+        <Space h='lg'/>
       </main>
     </>
   );
