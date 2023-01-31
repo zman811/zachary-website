@@ -74,17 +74,6 @@ export default function Home() {
                     full-stack software engineer
                   </Text>
                 </Center>
-                <Center style={{ margin: "1em" }}>
-                  {/* <Image
-                    height={200}
-                    width={300}
-                    src={image}
-                    style={{ border: "8px solid white" }}
-                    alt="Picture of Zachary"
-                  ></Image>
-                   //TODO move this to a seprate about me page
-                  */}
-                </Center>
               </Accordion.Panel>
             </Accordion.Item>
             <Accordion.Item value="About this page">
@@ -114,23 +103,6 @@ export default function Home() {
                 </Center>
               </Accordion.Panel>
             </Accordion.Item>
-            {/* <Accordion.Item value="Blog">
-              <Accordion.Control disabled>A Blog? Why?</Accordion.Control>
-              <Accordion.Panel>
-                <Center>
-                  <Text>
-                    Going to add text in here talking about why I made a blog
-                    page
-                  </Text>
-                </Center>
-                <Space h="lg" />
-                <Center>
-                  <Link href="blog">
-                    <Button>Go to the Blog</Button>
-                  </Link>
-                </Center>
-              </Accordion.Panel>
-            </Accordion.Item> */}
           </Accordion>
           <Image
             height={200}
