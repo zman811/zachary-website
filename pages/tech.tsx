@@ -72,8 +72,8 @@ export default function Tech() {
             </Accordion.Item>
           </Accordion>
         </Center> */}
-        <Space h='lg'/>
-        <Space h='lg'/>
+        <Space h="lg" />
+        <Space h="lg" />
       </main>
     </>
   );
