@@ -16,7 +16,8 @@ export default function Tech() {
           <div style={{ textAlign: "center", width: "50em" }}>
             {/* <Text size="xl">Still working on how to style this page</Text> */}
             <Space h="xl" />
-            <Title order={1}>Vercel</Title>
+            <Title order={1}>Hosted with</Title>
+            <Title order={2}>Vercel</Title>
             <Space h="lg" />
             <Text size="lg">
               This page is deployed using vercel. I picked this because it uses
@@ -28,6 +29,7 @@ export default function Tech() {
             </Text>
             <Space h="lg" />
             <Space h="lg" />
+            <Title order={1}>Full Stack</Title>
             <Title order={2}>Next.JS</Title>
             <Space h="lg" />
             <Text>
@@ -38,6 +40,7 @@ export default function Tech() {
               code.
             </Text>
             <Space h="lg" />
+            <Title order={1}>Front end</Title>
             <Title order={2}>React.JS</Title>
             <Space h="lg" />
             <Text>
@@ -48,6 +51,7 @@ export default function Tech() {
               uniform which is used with react and typescript.{" "}
             </Text>
             <Space h="lg" />
+            <Title order={1}>Data base</Title>
             <Title order={2}>MongoDB</Title>
             <Space h="lg" />
             <Text>
