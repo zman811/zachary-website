@@ -20,12 +20,12 @@ export default function Blog({
           <Title order={2}>Blog</Title>
         </Center>
         <Center>
-          <Text style={{ width: "40em", textAlign: "center" }}>
+          {/* <Text style={{ width: "40em", textAlign: "center" }}>
             This page will be filled out with notes I have kept from when I
             started learning to code, most of the first posts will be filled in
             from the notes. Once it&#39;s filled in I will start working on new
             ones!
-          </Text>
+          </Text> */}
         </Center>
         <Space h="lg" />
         {[...Array(data.length)].map((_, i) => (
