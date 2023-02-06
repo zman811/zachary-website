@@ -72,6 +72,9 @@ export default function Home() {
                     strong problem-solving skills as well as communication and
                     time management, I am excited to contribute to a team as a
                     full-stack software engineer
+                    <br />
+                    <br />
+                    Contact me! zachary.kessler10@gmail.com
                   </Text>
                 </Center>
               </Accordion.Panel>
