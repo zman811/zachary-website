@@ -75,6 +75,8 @@ export default function Home() {
                     <br />
                     <br />
                     Contact me! zachary.kessler10@gmail.com
+                    <br />
+                    <Button component="a" target="_blank" href="https://docs.google.com/document/d/1kDndEXXIXLxobZ7bbYtbJv1LKcaTlMPvQ8w3xqaTxyc/edit?usp=sharing">Resume</Button>
                   </Text>
                 </Center>
               </Accordion.Panel>
