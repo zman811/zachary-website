@@ -7,6 +7,7 @@ import {
   Button,
   Card,
   Grid,
+  MediaQuery,
 } from "@mantine/core";
 import Head from "next/head";
 import image from "../public/IMG_5771e.jpeg";
@@ -125,6 +126,7 @@ export default function Home() {
               My Projects
             </Title>
 
+            {/* <MediaQuery></MediaQuery> Need to add dif styles for mobile*/}
             <Grid columns={6}>
               <Grid.Col span={3}>
                 <Card>
