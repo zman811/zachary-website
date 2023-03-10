@@ -45,16 +45,20 @@ export default function Home() {
         <Space h="md" />
 
         <Center>
+          <Grid columns={2} justify="center">
+            <Grid.Col lg={1}>
+              <Center>
+
           <Accordion
             variant="separated"
             defaultValue="customization"
-            style={{ width: "40em", textAlign: "center", margin: "2em" }}
+            style={{ width: 'auto',textAlign: "center", margin: "2em" }}
           >
             <Accordion.Item value="About Me">
               <Accordion.Control>About me</Accordion.Control>
               <Accordion.Panel>
                 <Center>
-                  <Text style={{ margin: "1em", width: "50em" }}>
+                  <Text style={{ margin: "1em", width: "auto" }}>
                     Ever since I was young I have been interested in tech. I
                     built my own computer in high school and taught myself basic
                     code. Once I started to write my first programs I knew that
@@ -116,6 +120,13 @@ export default function Home() {
               </Accordion.Panel>
             </Accordion.Item>
           </Accordion>
+              </Center>
+
+            </Grid.Col>
+            <Grid.Col lg={1}>
+
+            <Center>
+
           <Image
             height={200}
             width={300}
@@ -123,6 +134,9 @@ export default function Home() {
             style={{ border: "4px solid white" }}
             alt="Picture of Zachary"
           />
+            </Center>
+            </Grid.Col>
+          </Grid>
         </Center>
         <Space h="md" />
         <Space h="md" />
@@ -134,7 +148,7 @@ export default function Home() {
 
             {/* <MediaQuery></MediaQuery> Need to add dif styles for mobile*/}
             <Grid columns={6}>
-              <Grid.Col span={3}>
+              <Grid.Col lg={3} sm={6}>
                 <Card>
                   <Card.Section>
                     <Image
@@ -171,7 +185,7 @@ export default function Home() {
                   </Card.Section>
                 </Card>
               </Grid.Col>
-              <Grid.Col span={3}>
+              <Grid.Col lg={3} sm={6}>
                 <Card>
                   <Card.Section>
                     <Image
@@ -209,7 +223,7 @@ export default function Home() {
                   </Card.Section>
                 </Card>
               </Grid.Col>
-              <Grid.Col span={3}>
+              <Grid.Col lg={3} sm={6}>
                 <Card>
                   <Card.Section>
                     <Image
