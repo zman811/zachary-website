@@ -7,7 +7,6 @@ import {
   Button,
   Card,
   Grid,
-  MediaQuery,
 } from "@mantine/core";
 import Head from "next/head";
 import image from "../public/IMG_5771e.jpeg";
